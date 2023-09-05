@@ -1,0 +1,78 @@
+:root {
+  --accent-color-bolog: #03a9f4;
+  --menu-color-blog: #7d7d7d;
+  --link-color-blog: #b4ad9e;
+  --title-color-blog: #626262;
+  --cpntent-color-blog: #626262;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+/* header */
+.header-link {
+  color: var(--menu-color-blog);
+  text-transform: uppercase;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color-bolog);
+}
+
+/* section */
+.blogs-link {
+  color: var(--link-color-blog);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+}
+
+.blogs-link:hover,
+.blogs-link:focus {
+  color: var(--accent-color-bolog);
+}
+
+.blogs-title {
+  color: var(--title-color-blog);
+  font-size: 30px;
+}
+
+.blogs-text {
+  color: var(--cpntent-color-blog);
+}
+
+.blogs-button {
+  color: var(--cpntent-color-blog);
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+.blogs-button:hover,
+.blogs-button:focus{
+background-color: var(--accent-color-bolog);
+color: wheat;
+}
