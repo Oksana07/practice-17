@@ -16,12 +16,15 @@ body {
 
 li {
   list-style: none;
+
 }
+
 
 a {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -76,3 +79,70 @@ a {
 background-color: var(--accent-color-bolog);
 color: wheat;
 }
+=======
+li {
+  list-style: none;
+}
+
+/* header */
+
+.logo {
+  color: var(--accent-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+.logo-sryle {
+  color: #000;
+}
+
+.logo-sryle:hover,
+.logo-sryle:focus {
+  color: var(--accent-color);
+}
+
+.menu-link {
+  color: var(--color-title);
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.header-cont {
+  color: var(--basik-color);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.header-cont:hover,
+.header-cont:focus {
+  color: var(--accent-color);
+}
+=======
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+>>>>>>> 075fe64cc2a488c64d43bc046436e851238f6af9
+>>>>>>> b5118e756d8848162108e336afc2206e08f5c84e
