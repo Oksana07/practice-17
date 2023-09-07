@@ -8,6 +8,17 @@
 
 body{
     font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+
+
 }
 
 .visually-hidden {
@@ -19,4 +30,47 @@ body{
     height: 1px !important;
     width: 1px !important;
     overflow: hidden;
+}
+
+.hero-title{
+    /* color: #FFF; */
+        text-align: center;
+        font-size: 44px;
+
+        font-weight: 900;
+        line-height: 1.36;
+        letter-spacing: 2.64px;
+        text-transform: uppercase;
+}
+
+/* portfolio */
+.portfolio-list{
+    display: flex;
+    /* gap: 8px; */
+}
+
+.portfolio-list > .item:not(:first-child){
+    margin-left: 8px;
+}
+
+
+
+.portfolio-btn{
+    color: var(--blak-color);
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.62;
+        letter-spacing: 0.48px;
+
+    /* padding-top: 6px;
+    padding-left: 22px;
+    padding-bottom: 6px;
+    padding-right: 22px; */
+
+    /* padding: 6px 22px 6px 22px; */
+
+    padding: 6px 22px;
+
+    border: none;
 }
